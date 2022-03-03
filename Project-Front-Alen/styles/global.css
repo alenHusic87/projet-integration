@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+
+}
+header {
+  display: flex;
+  width: 100%;
+}
+header {
+  display: flex;
+  padding: 20px 0;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+
+  box-shadow: 0 2px 3px rgba(224, 221, 221, 0.3);
+  width: 100%;
+}
+.text_categorie h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.carte_proiduit:hover {
+  transform: scale(1.1);
+}
+.test p {
+  display: flex;
+  justify-content: center;
+  color: gray;
+}
+.colorBlack{
+  color: black;
+}
